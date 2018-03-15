@@ -28,7 +28,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	UPROPERTY(EditInstanceOnly, Category = "Patrolling")
+	UPROPERTY(EditAnywhere, Category = "Patrolling")
 		TArray<AActor*> PatrollingPoints;
 
 public:
